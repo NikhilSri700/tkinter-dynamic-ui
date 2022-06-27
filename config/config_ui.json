@@ -1,0 +1,51 @@
+{
+  "type": "Form layout",
+  "AppName": "Sample Form",
+  "elements": [
+    {
+      "type": "TextBox",
+      "Label": "Bucket Name",
+      "name": "bucket_name"
+    },
+     {
+      "type": "TextBox",
+      "Label": "Region",
+      "name": "region"
+    },
+    {
+      "type": "TextBox",
+      "Label": "Account Id",
+      "name": "account_id"
+    },
+    {
+      "type": "TextBox",
+      "Label": "File Name",
+      "name": "filename"
+    },
+    {
+      "type": "TextBox",
+      "Label": "ARN",
+      "name": "arn"
+    },
+    {
+      "type": "TextBox",
+      "Label": "Path",
+      "name": "path"
+    },
+    {
+      "type": "TextBox",
+      "Label": "New Text Box",
+      "name": "new_box"
+    },
+    {
+      "type": "TextBox",
+      "Label": "New Box 2",
+      "name": "box_2"
+    },
+    {
+      "type": "Button",
+      "Text": "Submit",
+      "Command": ""
+    }
+  ]
+}
