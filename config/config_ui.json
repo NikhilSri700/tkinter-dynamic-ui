@@ -1,0 +1,42 @@
+{
+  "type": "Form layout",
+  "AppName": "Sample Form",
+  "Description": "Pass these Arguments to script.",
+  "elements": [
+    {
+      "type": "TextBox",
+      "Label": "Bucket Name",
+      "name": "bucket_name"
+    },
+     {
+      "type": "TextBox",
+      "Label": "Region",
+      "name": "region"
+    },
+    {
+      "type": "TextBox",
+      "Label": "Account Id",
+      "name": "account_id"
+    },
+    {
+      "type": "TextBox",
+      "Label": "File Name",
+      "name": "filename"
+    },
+    {
+      "type": "TextBox",
+      "Label": "ARN",
+      "name": "arn"
+    },
+    {
+      "type": "TextBox",
+      "Label": "Path",
+      "name": "path"
+    },
+    {
+      "type": "Button",
+      "Text": "Submit",
+      "Command": ""
+    }
+  ]
+}
