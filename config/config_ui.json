@@ -1,6 +1,7 @@
 {
   "type": "Form layout",
   "AppName": "Sample Form",
+  "Description": "Pass these Arguments to script.",
   "elements": [
     {
       "type": "TextBox",
@@ -31,16 +32,6 @@
       "type": "TextBox",
       "Label": "Path",
       "name": "path"
-    },
-    {
-      "type": "TextBox",
-      "Label": "New Text Box",
-      "name": "new_box"
-    },
-    {
-      "type": "TextBox",
-      "Label": "New Box 2",
-      "name": "box_2"
     },
     {
       "type": "Button",
