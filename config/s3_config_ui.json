@@ -1,0 +1,40 @@
+{
+  "type": "Form layout",
+  "AppName": "S3 Management",
+  "elements": [
+    {
+      "type": "TextBox",
+      "Label": "Bucket Name",
+      "name": "bucket_name"
+    },
+     {
+      "type": "TextBox",
+      "Label": "Region",
+      "name": "region"
+    },
+    {
+      "type": "TextBox",
+      "Label": "Account Id",
+      "name": "account_id"
+    },
+    {
+      "type": "TextBox",
+      "Label": "ARN",
+      "name": "arn"
+    },
+    {
+      "type": "TextBox",
+      "Label": "Path",
+      "name": "path"
+    },
+    {
+      "type": "Open",
+      "Label": "File Name",
+      "name": "filename"
+    },
+    {
+      "type": "Button",
+      "Text": "Upload File"
+    }
+  ]
+}
