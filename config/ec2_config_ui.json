@@ -1,0 +1,30 @@
+{
+  "type": "Form layout",
+  "AppName": "EC2 Management",
+  "elements": [
+    {
+      "type": "TextBox",
+      "Label": "Instance Name",
+      "name": "instance_name"
+    },
+     {
+      "type": "TextBox",
+      "Label": "Instance Type",
+      "name": "instance_type"
+    },
+    {
+      "type": "TextBox",
+      "Label": "Availability Zone",
+      "name": "availability_zone"
+    },
+    {
+      "type": "TextBox",
+      "Label": "Image ID",
+      "name": "image_id"
+    },
+    {
+      "type": "Button",
+      "Text": "Launch Instance"
+    }
+  ]
+}

@@ -1,7 +1,6 @@
 {
   "type": "Form layout",
-  "AppName": "Sample Form",
-  "Description": "Pass these Arguments to script.",
+  "AppName": "S3 Management",
   "elements": [
     {
       "type": "TextBox",
@@ -20,11 +19,6 @@
     },
     {
       "type": "TextBox",
-      "Label": "File Name",
-      "name": "filename"
-    },
-    {
-      "type": "TextBox",
       "Label": "ARN",
       "name": "arn"
     },
@@ -34,9 +28,13 @@
       "name": "path"
     },
     {
+      "type": "Open",
+      "Label": "File Name",
+      "name": "filename"
+    },
+    {
       "type": "Button",
-      "Text": "Submit",
-      "Command": ""
+      "Text": "Upload File"
     }
   ]
 }
